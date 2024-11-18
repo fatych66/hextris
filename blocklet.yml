@@ -1,0 +1,52 @@
+name: z2qaF2bYbYkvpbQkz1T2Xo3abw18KrasA7dTs
+description: An addictive puzzle game inspired by Tetris
+group: static
+main: .
+author:
+  name: fatych66
+specVersion: 1.2.8
+title: Hextris
+files:
+  - blocklet.md
+  - screenshots
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+did: z2qaF2bYbYkvpbQkz1T2Xo3abw18KrasA7dTs
+version: 1.0.0
+logo: logo.svg
+community: ''
+documentation: ''
+homepage: ''
+license: ''
+payment:
+  price: []
+  share: []
+timeout:
+  start: 60
+requirements:
+  server: '>=1.7.0'
+  os: '*'
+  cpu: '*'
+  nodejs: '*'
+environments: []
+capabilities:
+  component: true
+screenshots:
+  - 1.png
+  - 2.png
+  - 3.png
+components: []
+engine:
+  interpreter: blocklet
+  source:
+    store: https://store.blocklet.dev
+    name: z2qa2dGC9EmsjB2WJtUcmuRWx43zTwPUZQF7g
+    version: latest
+repository:
+  type: git
+  url: git+https://github.com/fatych66/hextris
