@@ -17,7 +17,7 @@ interfaces:
     port: BLOCKLET_PORT
     protocol: http
 did: z2qaF2bYbYkvpbQkz1T2Xo3abw18KrasA7dTs
-version: 1.0.0
+version: 1.0.1
 logo: logo.svg
 community: ''
 documentation: ''
